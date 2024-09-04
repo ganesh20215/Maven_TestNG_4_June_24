@@ -6,7 +6,7 @@ public class PriorityExample {
 
     @Test(priority = 'A')
     public void testCaseZ(){
-        System.out.println("test case Z");
+        System.out.println("test case of Z");
     }
 
     @Test(groups = {"smoke"})
@@ -22,6 +22,7 @@ public class PriorityExample {
     @Test(priority = 'b')
     public void testCaseA(){
         System.out.println("test case A");
+		System.out.println("Good Morning")
     }
 
     @Test(priority = 5)
