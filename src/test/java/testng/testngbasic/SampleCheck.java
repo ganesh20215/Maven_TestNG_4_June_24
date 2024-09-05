@@ -35,13 +35,4 @@ public class SampleCheck {
         System.out.println("test case F");
     }
 
-    @Test(priority = 7)
-    public void testCaseC(){
-        System.out.println("test case C");
-    }
-
-    @Test(priority = 7)
-    public void testCaseO(){
-        System.out.println("Test Case O");
-    }
 }
