@@ -2,7 +2,7 @@ package testng.testngbasic;
 
 import org.testng.annotations.Test;
 
-public class PriorityExample {
+public class SampleCheck {
 
     @Test(priority = 'A')
     public void testCaseZ(){
@@ -22,7 +22,7 @@ public class PriorityExample {
     @Test(priority = 'b')
     public void testCaseA(){
         System.out.println("test case A");
-		System.out.println("Good Morning")
+		System.out.println("Good Morning");
     }
 
     @Test(priority = 5)
@@ -39,9 +39,9 @@ public class PriorityExample {
     public void testCaseC(){
         System.out.println("test case C");
     }
-	
-	@Test(priority = 7)
+
+    @Test(priority = 7)
     public void testCaseO(){
-        System.out.println("test case O");
+        System.out.println("Test Case O");
     }
 }
