@@ -4,10 +4,6 @@ import org.testng.annotations.Test;
 
 public class SampleCheck {
 
-    @Test(priority = 'A')
-    public void testCaseZ(){
-        System.out.println("test case of Z");
-    }
 
     @Test(groups = {"smoke"})
     public void testCaseM(){
