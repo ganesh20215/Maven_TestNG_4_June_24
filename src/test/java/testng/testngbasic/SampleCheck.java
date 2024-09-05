@@ -39,4 +39,9 @@ public class PriorityExample {
     public void testCaseC(){
         System.out.println("test case C");
     }
+	
+	@Test(priority = 7)
+    public void testCaseO(){
+        System.out.println("test case O");
+    }
 }
