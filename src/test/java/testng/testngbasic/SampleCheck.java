@@ -25,6 +25,11 @@ public class SampleCheck {
 		System.out.println("Good Morning");
     }
 
+    @Test(priority = 5)
+    public void testCaseV(){
+        System.out.println("test case V");
+    }
+
     @Test(priority = -60)
     public void testCaseF(){
         System.out.println("test case F");
