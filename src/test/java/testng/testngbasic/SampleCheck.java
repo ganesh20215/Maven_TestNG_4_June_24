@@ -30,9 +30,4 @@ public class SampleCheck {
         System.out.println("test case V");
     }
 
-    @Test(priority = -60)
-    public void testCaseF(){
-        System.out.println("test case F");
-    }
-
 }
