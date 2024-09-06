@@ -23,7 +23,6 @@ public class BeforeAndAfterMethod {
     @Test
     public void VerifyOpenAmazonUrl(){
         driver.get("https://www.amazon.in/");
-        driver.manage().window().maximize();
     }
 
     @Test
