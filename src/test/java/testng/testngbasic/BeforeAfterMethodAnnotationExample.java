@@ -29,11 +29,6 @@ public class BeforeAfterMethodAnnotationExample {
         System.out.println("verify method 1");
     }
 
-    @Test(groups = {"smoke"})
-    public void verifyMethod_2(){
-        System.out.println("verify method 2");
-    }
-
     @Test
     public void verifyMethod_3(){
         System.out.println("verify method 3");
